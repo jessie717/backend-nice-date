@@ -1,0 +1,35 @@
+{
+  "name": "backend-nice-date",
+  "version": "0.0.1",
+  "description": "backend for nice-date",
+  "main": "main.js",
+  "scripts": {
+    "mon": "nodemon main.js",
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jessie717/backend-nice-date.git"
+  },
+  "keywords": [
+    "nodejs",
+    "backend"
+  ],
+  "author": "jessie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jessie717/backend-nice-date/issues"
+  },
+  "homepage": "https://github.com/jessie717/backend-nice-date#readme",
+  "dependencies": {
+    "koa": "^2.14.1",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0"
+  },
+  "devDependencies": {
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
