@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/jessie717/backend-nice-date#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "koa": "^2.14.1",
     "koa-body": "^6.0.1",
     "koa-router": "^12.0.0"
