@@ -1,5 +1,5 @@
 const app = require('./src/app/app')
 
-app.listen(5000, () => {
-  console.log('server is running on 5000')
+app.listen(process.env.MONGODB_PORT, () => {
+  console.log(`server is running on: ${process.env.MONGODB_PORT}`)
 })
